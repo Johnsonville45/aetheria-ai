@@ -1,91 +1,44 @@
 # Aetheria AI
 
-A starter Discord bot for the Aetheria community. It includes `/ask`, `/summarize`, `/translate`, `/ping`, and `/botinfo`, and is designed for deployment on Railway.
+Aetheria AI is a Discord bot that uses OpenAI to answer questions, summarize and translate text.
 
-## Important limits
+Prerequisites
+- Node.js 22+
+- Docker (for container deployment)
+- A Discord application & bot with its token and client ID
+- An OpenAI API key
 
-This project does **not** automatically edit your existing Discord server's roles, channels, or member visibility. It is a bot application; server configuration is separate and must be reviewed in Discord. It also does not include automatic moderation yet. Keep permissions minimal and test in a private channel first.
+Required environment variables
+- DISCORD_TOKEN — bot token
+- DISCORD_CLIENT_ID — application client id
+- DISCORD_GUILD_ID — (optional for development) guild to register commands to
+- OPENAI_API_KEY — your OpenAI API key
+- OPENAI_MODEL — model name to use (e.g. gpt-4o-mini)
+- AI_CHANNEL_ID — optional. If set, commands will only work in this channel.
 
-## 1. Create the Discord application
+Local development
+1. Copy .env.example to .env and populate variables.
+2. npm ci
+3. npm run build
+4. npm run register-commands    # registers commands to the guild if DISCORD_GUILD_ID is set
+5. npm start
 
-1. Open the official Discord Developer Portal: https://discord.com/developers/applications
-2. Create an application named `Aetheria AI`.
-3. Under **Bot**, create/reset the bot token and copy it privately.
-4. Under **OAuth2 > URL Generator**, select scopes `bot` and `applications.commands`.
-5. Give it only the permissions it needs: View Channels, Send Messages, Read Message History, and Use Slash Commands. Do not grant Administrator.
-6. Use the generated invite URL to add it to your Aetheria server.
-7. Copy the Application ID. For guild-specific command registration, enable Developer Mode in Discord, right-click/copy your server ID.
+Docker / Railway
+The included Dockerfile builds the app and runs the compiled output. Railway can use this Dockerfile directly. Ensure environment variables are set in Railway.
 
-Never publish the bot token or put it in source code.
+Permissions
+The bot requires the following permissions only:
+- Send Messages (permission integer 2048)
 
-## 2. Create an OpenAI API key
+Invite URL (replace CLIENT_ID):
+https://discord.com/oauth2/authorize?client_id=CLIENT_ID&scope=applications.commands%20bot&permissions=2048
 
-Create an API key in the official OpenAI Platform: https://platform.openai.com/api-keys. API usage may cost money and ChatGPT subscriptions do not automatically include API credits. Set usage limits before enabling the bot.
+Security
+Do not commit secrets. .env is excluded by .gitignore. Use Railway or environment variables for secrets.
 
-## 3. Configure locally
+Notes & troubleshooting
+- Global command registration can take up to an hour to propagate. For quick testing set DISCORD_GUILD_ID.
+- The bot uses the official OpenAI SDK. If you get authentication errors, verify OPENAI_API_KEY.
 
-Install Node.js 22 or newer. Copy `.env.example` to `.env` and fill in:
-- `DISCORD_TOKEN`
-- `DISCORD_CLIENT_ID`
-- `DISCORD_GUILD_ID` (recommended while testing)
-- `OPENAI_API_KEY`
-- `OPENAI_MODEL` (default `gpt-4.1-mini`)
-- optional `AI_CHANNEL_ID` to restrict AI commands to one channel
-
-Then run:
-
-```bash
-npm install
-npm run register
-npm run dev
-```
-
-For a production build:
-
-```bash
-npm run build
-npm start
-```
-
-## 4. Deploy on Railway
-
-1. Create a private GitHub repository and upload these files.
-2. In Railway, create a project and deploy from the GitHub repository.
-3. Add the same environment variables in the Railway service's Variables panel. Do not upload `.env`.
-4. Deploy and check the logs for `Ready as ...`.
-5. Register slash commands once with `npm run register` from a trusted local environment, or use the same environment variables locally.
-
-Railway's service must remain running for the bot to respond. Do not paste secrets into chat or issues.
-
-## 5. Initial Aetheria setup recommendations
-
-Create/verify these channels manually in Discord:
-- `rules-and-info`
-- `announcements`
-- `general`
-- `anime-and-manga`
-- `music`
-- `bot-commands`
-- `support`
-
-Keep `STAFF` and `SUPPORT` areas appropriately permission-restricted. Give the bot access only to `bot-commands` if using `AI_CHANNEL_ID`. Review role hierarchy and channel permissions before inviting members.
-
-## Security checklist
-
-- Keep the bot token and OpenAI key in environment variables.
-- Never grant Administrator just to make the bot work.
-- Use a private repository if you prefer to keep project details private.
-- Rotate a token immediately if it is exposed.
-- Restrict commands to a dedicated channel during testing.
-- Check API usage and set a budget/usage alert.
-- Avoid collecting or logging message content unnecessarily.
-- Test with a private server or channel before wider use.
-
-## Included files
-
-- `src/index.ts` — bot runtime and AI commands
-- `src/commands.ts` — slash command definitions
-- `src/register-commands.ts` — registers slash commands
-- `src/config.ts` — environment configuration
-- `Dockerfile`, `railway.json` — deployment configuration
-- `.github/workflows/ci.yml` — TypeScript check on pushes and pull requests
+Limitations
+I did not deploy or test the bot in a live Discord environment — follow the steps above to register commands and run the bot in your own environment.

@@ -1,0 +1,26 @@
+{
+  "name": "aetheria-ai",
+  "version": "0.1.0",
+  "description": "Aetheria AI — Discord bot powered by OpenAI",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "register-commands": "node ./dist/register-commands.js",
+    "dev": "ts-node --esm src/index.ts"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "openai": "^4.11.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.2",
+    "ts-node": "^10.9.1",
+    "@types/node": "^20.4.2"
+  }
+}

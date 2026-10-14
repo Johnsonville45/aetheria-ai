@@ -1,0 +1,9 @@
+# Railway service configuration (basic)
+{
+  "build": {
+    "builder": "Dockerfile"
+  },
+  "environments": {
+    "production": {}
+  }
+}

@@ -1,0 +1,13 @@
+# Node build artifacts
+node_modules/
+dist/
+
+# Local env
+.env
+
+# Logs
+npm-debug.log*
+
+# Docker artifacts
+.dockerignore
+
