@@ -3,126 +3,225 @@
 **Effective Date:** October 15, 2026  
 **Last Updated:** October 15, 2026
 
-## 1. Acceptance of Terms
+## 1. Introduction
 
-Welcome to Aetheria AI, a Discord bot operated by Souta Aizawa Studio.
+Welcome to Aetheria AI.
 
-By inviting, accessing, or using Aetheria AI ("the Bot"), you agree to these Terms of Service. If you do not agree with these terms, please stop using the Bot.
+These Terms of Service ("Terms") govern your access to and use of Aetheria AI ("the Bot"), a Discord bot operated by Souta Aizawa Studio ("we," "us," or "our").
 
 Aetheria AI provides AI-powered assistance through Discord, including answering questions, summarizing text, and translating text.
 
+By accessing or using the Bot, you agree to these Terms. If you do not agree with them, do not use the Bot.
+
 ## 2. Eligibility
 
-You must be permitted to use Discord and the third-party services used by the Bot under their applicable terms and age requirements.
+You may use Aetheria AI only if you are permitted to use Discord and the third-party services involved under their applicable terms, policies, and age requirements.
 
-By using the Bot, you confirm that you are permitted to use the service under the rules that apply to you.
+You are responsible for ensuring that your use of the Bot complies with the laws and rules applicable to you.
 
-## 3. Description of Service
+If you are not permitted to use the Bot under applicable requirements, you must stop using it.
 
-Aetheria AI offers AI-powered features through Discord. These may include:
+## 3. Description of the Service
 
-- Answering user questions.
-- Summarizing text submitted by users.
-- Translating text between languages.
-- Other features introduced in future updates.
+Aetheria AI provides AI-powered features through Discord.
 
-Features may change, become unavailable, or be removed at any time.
+Available features include:
 
-The Bot depends on third-party services, including Discord and OpenAI, to provide its functionality.
+- `/ask` — Ask the AI a question.
+- `/summarize` — Request a summary of submitted text.
+- `/translate` — Translate submitted text into a requested language.
+- `/ping` — Check the Bot's response latency.
+- `/botinfo` — View basic information about the Bot.
+
+Features may be modified, added, temporarily disabled, or removed as development continues.
+
+The Bot relies on third-party services, including Discord and OpenAI, to provide its functionality.
+
+We do not guarantee that every feature will always be available or operate without errors.
 
 ## 4. Acceptable Use
 
-You agree not to use Aetheria AI to:
+You agree to use Aetheria AI responsibly and lawfully.
+
+You must not use the Bot to:
 
 - Violate applicable laws or regulations.
-- Harass, threaten, exploit, or harm others.
-- Generate or distribute unlawful content.
-- Attempt to gain unauthorized access to the Bot or its infrastructure.
-- Interfere with the Bot's operation or security.
-- Abuse the Bot through spam, excessive requests, or other disruptive behavior.
-- Circumvent applicable security measures or usage restrictions.
-- Violate Discord's Terms of Service, Discord's Community Guidelines, or the applicable terms of third-party services.
+- Harass, threaten, exploit, or intentionally harm others.
+- Generate, distribute, or facilitate unlawful activity.
+- Attempt to gain unauthorized access to the Bot, its credentials, or its infrastructure.
+- Interfere with the Bot's operation, availability, or security.
+- Abuse the service through spam, excessive requests, or disruptive behavior.
+- Circumvent technical restrictions or security measures.
+- Use the Bot in a way that violates Discord's Terms of Service or Community Guidelines.
+- Violate applicable terms or policies of OpenAI or other third-party services.
+- Attempt to misuse the Bot to compromise the privacy, security, or rights of other people.
 
-We may restrict or terminate access to the Bot if we reasonably believe these Terms have been violated.
+We may restrict or terminate access to the Bot if we reasonably believe that a user has violated these Terms or poses a security or operational risk.
 
 ## 5. AI-Generated Content
 
-Aetheria AI uses artificial intelligence to generate responses and process text.
+Aetheria AI uses artificial intelligence to process submitted text and generate responses.
 
-AI-generated content may be inaccurate, incomplete, misleading, outdated, or inappropriate. We do not guarantee that every response will be correct.
+AI-generated content may be:
 
-You are responsible for evaluating AI-generated content before relying on it or sharing it with others.
+- Incorrect or misleading.
+- Incomplete or outdated.
+- Inappropriate for a particular situation.
+- Missing important context.
+- Unsuitable for a particular purpose.
 
-The Bot is not a substitute for professional medical, legal, financial, or other qualified advice. Do not rely on the Bot for emergency decisions.
+We do not guarantee the accuracy, reliability, completeness, or suitability of AI-generated responses.
 
-You are responsible for how you use the Bot's responses.
+You are responsible for reviewing the output and deciding whether it is appropriate to use.
 
-## 6. Third-Party Services
+Do not rely on the Bot as a substitute for qualified medical, legal, financial, mental health, or other professional advice.
 
-Aetheria AI may rely on third-party services, including:
+The Bot is not an emergency service. If you are facing an emergency, contact the appropriate emergency service or qualified professional.
 
-- Discord: https://discord.com/terms
-- OpenAI: https://openai.com/policies/terms-of-use/
+You are responsible for how you use, share, publish, or act upon content generated by the Bot.
 
-Your use of those services may be subject to their own terms, policies, and restrictions.
+## 6. User-Submitted Content
 
-Souta Aizawa Studio does not control third-party services and cannot guarantee their availability, performance, or policies.
+You are responsible for the text and other information you submit to Aetheria AI.
 
-## 7. Availability and Changes
+You should have the necessary rights or permissions to submit any content you provide.
 
-We aim to keep Aetheria AI available and functioning, but we do not guarantee uninterrupted or error-free service.
+Do not submit passwords, authentication tokens, payment credentials, confidential business information, or sensitive personal information unless you have carefully considered the risks and have an appropriate legal basis to do so.
 
-The Bot may be updated, temporarily disabled, discontinued, or modified without prior notice.
+When using the Bot, you should also consider whether the Discord channel is visible to other members of the server.
 
-We may introduce reasonable usage limits or restrict access when necessary to protect the Bot, its users, or its infrastructure.
+Submitting content to the Bot does not give us ownership of that content. However, the content may be processed by the Bot and third-party services as described in our Privacy Policy and their applicable policies.
 
-## 8. Disclaimer of Warranties
+## 7. Third-Party Services
 
-To the extent permitted by applicable law, Aetheria AI is provided on an "AS IS" and "AS AVAILABLE" basis.
+Aetheria AI depends on third-party services to operate.
 
-We do not guarantee that the Bot will always be available, secure, accurate, or suitable for a particular purpose.
+These may include:
 
-Nothing in these Terms excludes rights or protections that cannot legally be excluded.
+**Discord**  
+Terms of Service: https://discord.com/terms  
+Privacy Policy: https://discord.com/privacy
 
-## 9. Limitation of Liability
+**OpenAI**  
+Terms of Use: https://openai.com/policies/terms-of-use/  
+Privacy Policy: https://openai.com/policies/privacy-policy/
 
-To the maximum extent permitted by applicable law, Souta Aizawa Studio will not be liable for indirect, incidental, special, consequential, or punitive damages arising from the use of, or inability to use, Aetheria AI.
+Your use of Discord, OpenAI, and other third-party services may be subject to their own terms, privacy policies, restrictions, and service availability.
 
-This includes losses arising from inaccurate AI-generated content, service interruptions, or reliance on Bot responses.
+We do not control the operation or independent data practices of these services.
 
-Nothing in these Terms excludes or limits liability where doing so is prohibited by applicable law.
+We are not responsible for outages, policy changes, or service interruptions caused by third parties, except where applicable law provides otherwise.
 
-## 10. Termination
+## 8. Availability and Modifications
 
-We may suspend, restrict, or discontinue the Bot or access to it when reasonably necessary, including because of violations of these Terms, security concerns, or operational requirements.
+We aim to maintain Aetheria AI, but we do not guarantee uninterrupted, secure, or error-free operation.
+
+The Bot may become temporarily or permanently unavailable because of maintenance, technical problems, API limits, third-party outages, financial constraints, security concerns, or other circumstances.
+
+We may modify, update, restrict, suspend, or discontinue the Bot or any feature at any time.
+
+Where reasonably practical, we may provide notice of significant changes, but we do not guarantee advance notice.
+
+## 9. Usage Restrictions
+
+The Bot may be subject to technical limits, third-party API limits, rate limits, or other operational restrictions.
+
+Attempts to overload the Bot, evade restrictions, or interfere with its normal operation may result in restricted access.
+
+We may implement additional limits or safeguards as the service develops.
+
+## 10. Disclaimer of Warranties
+
+To the maximum extent permitted by applicable law, Aetheria AI is provided on an "AS IS" and "AS AVAILABLE" basis.
+
+We make no express or implied guarantees that the Bot will be uninterrupted, error-free, secure, accurate, or suitable for a particular purpose.
+
+We do not guarantee that AI-generated content will meet your expectations or requirements.
+
+Nothing in these Terms excludes warranties, consumer rights, or other protections that cannot legally be excluded.
+
+## 11. Limitation of Liability
+
+To the maximum extent permitted by applicable law, Souta Aizawa Studio will not be liable for indirect, incidental, special, consequential, or punitive damages arising from or related to the use of, or inability to use, Aetheria AI.
+
+This may include losses associated with service interruptions, inaccurate AI-generated content, reliance on Bot responses, or third-party service failures.
+
+Nothing in these Terms excludes or limits liability where such exclusion or limitation is prohibited by applicable law.
+
+Your mandatory legal rights remain unaffected.
+
+## 12. Suspension and Termination
+
+We may suspend, restrict, or discontinue the Bot or a user's access to it when reasonably necessary.
+
+Reasons may include:
+
+- Violations of these Terms.
+- Abuse or disruptive use.
+- Security concerns.
+- Legal obligations.
+- Technical or operational requirements.
+- Discontinuation of the service.
 
 You may stop using the Bot at any time.
 
-## 11. Changes to These Terms
+Termination of access does not automatically delete information held independently by Discord, OpenAI, or other third-party services.
 
-We may update these Terms from time to time.
+Any data-related requests will be handled as described in our Privacy Policy and subject to applicable law.
 
-Updated Terms will be published in the location where these Terms are made available. The "Last Updated" date will be revised when changes are made.
+## 13. Privacy
 
-Continued use of the Bot after updated Terms become effective will be subject to the revised Terms, to the extent permitted by applicable law.
+Your use of Aetheria AI is also subject to our Privacy Policy.
 
-## 12. Governing Law
+The Privacy Policy explains how information may be processed when you interact with the Bot, including when text is transmitted to OpenAI to generate a response.
 
-These Terms are subject to the applicable laws of the Philippines and any other jurisdiction whose laws apply to the Bot operator or the user.
+You can read the Privacy Policy here:
 
-The mention of multiple jurisdictions does not mean that all laws apply to every user or that mandatory legal rights are waived.
+[Privacy Policy](PRIVACY_POLICY.md)
 
-Applicable consumer protection and other mandatory legal rights remain unaffected.
+Please review it before submitting personal or sensitive information to the Bot.
 
-## 13. Contact Information
+## 14. Changes to These Terms
 
-For questions, concerns, or requests regarding these Terms, contact:
+We may revise these Terms to reflect changes to the Bot, its features, its operation, or applicable legal requirements.
+
+Updated Terms will be published in the location where these Terms are made available.
+
+We will update the "Last Updated" date when changes are made.
+
+Your continued use of the Bot after revised Terms take effect will be subject to the updated Terms to the extent permitted by applicable law.
+
+If you do not agree with a revised version, you should stop using the Bot.
+
+## 15. Governing Law
+
+These Terms are subject to the laws applicable to the operation of Aetheria AI and the user.
+
+Where legally appropriate, the laws of the Philippines may govern these Terms, without excluding mandatory legal protections that apply under another jurisdiction's laws.
+
+Nothing in this section is intended to remove consumer protection, privacy, or other mandatory rights that users may have under applicable law.
+
+The application of a particular country's laws may depend on the circumstances and cannot be determined solely by this document.
+
+## 16. Contact Information
+
+For questions, concerns, or requests relating to these Terms, contact:
 
 **Operator:** Souta Aizawa Studio  
 **Email:** soutaaizawastudio@gmail.com
 
 We currently do not operate a dedicated support server. Please contact us by email.
 
+## 17. Severability
+
+If any provision of these Terms is found to be unlawful, invalid, or unenforceable, the remaining provisions will continue to apply to the extent permitted by law.
+
+## 18. Entire Agreement
+
+These Terms and the Privacy Policy constitute the terms published by us for the use of Aetheria AI, subject to any additional terms or requirements that apply under applicable law.
+
+Nothing in these Terms overrides mandatory legal protections or the independent terms of third-party services.
+
 ---
 
-By using Aetheria AI, you acknowledge that you have read these Terms of Service.
+By using Aetheria AI, you acknowledge that you have had the opportunity to review these Terms of Service.
