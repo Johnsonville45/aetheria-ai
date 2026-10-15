@@ -530,3 +530,11 @@ If no license has been added, contact the repository owner before assuming that 
 Aetheria AI aims to make AI-powered text assistance easy to access within Discord. Its current foundation supports question answering, summarization, and translation, with room for additional commands and improvements as the project evolves.
 
 **Aetheria AI — AI assistance, directly in Discord.**
+
+## Legal & Privacy
+
+- [Terms of Service](TERMS_OF_SERVICE.md)
+- [Privacy Policy](PRIVACY_POLICY.md)
+
+For questions, privacy requests, or support, contact:
+soutaaizawastudio@gmail.com
