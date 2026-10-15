@@ -533,8 +533,15 @@ Aetheria AI aims to make AI-powered text assistance easy to access within Discor
 
 ## Legal & Privacy
 
+Please review the following documents before using Aetheria AI:
+
 - [Terms of Service](TERMS_OF_SERVICE.md)
 - [Privacy Policy](PRIVACY_POLICY.md)
 
-For questions, privacy requests, or support, contact:
-soutaaizawastudio@gmail.com
+### Contact
+
+For support inquiries, privacy questions, or data-related requests:
+
+**Email:** soutaaizawastudio@gmail.com
+
+Aetheria AI currently does not operate a dedicated support server.
